@@ -1,0 +1,17 @@
+.sectionContainer {
+    padding: 10px;
+    display: flex;
+    margin-bottom: 10%;
+}
+
+.sectionContainer img {
+    width: 60%;
+    margin: 0;
+}
+
+.sectionContainer div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    margin: 5%;
+}

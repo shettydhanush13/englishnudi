@@ -1,0 +1,27 @@
+import React from 'react';
+// import PropTypes from 'prop-types';
+import "./styles.scss"
+import { LayoutWrapper, LayoutTitle } from '../../elements';
+
+const FAQ = () => {
+    return (
+        <LayoutWrapper>
+            <LayoutTitle title='Need a little more information?'/>
+            <section>
+                <h3>What does the English for Work course offer?</h3>
+                <p>Each class has a duration of 55 minutes and can be booked by up to 15 students. Our live group classes include a set topic and focus on speaking and listening tasks. You will learn with other students at the same level as you, and you will receive instant feedback on your speaking, grammar and vocabulary. After each class, the teacher will share valuable class materials with you for additional practice.</p>
+            </section>
+            <section>
+                <h3>What happens in a live class?</h3>
+                <p>Join online classes with students from around the world for real-time speaking, listening and reading practice with an expert British Council teacher. We encourage you to interact with the materials, your teacher and your fellow students. Towards the end of class, the teacher will recap, share all the learning materials and ensure everybody has understood the lesson.</p>
+            </section>
+        </LayoutWrapper>
+    );
+}
+
+FAQ.propTypes = {
+    // page : PropTypes.string,
+    // createListing : PropTypes.func
+}
+
+export default FAQ;
