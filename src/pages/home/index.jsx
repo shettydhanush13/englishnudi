@@ -1,7 +1,6 @@
 import React, { lazy, Suspense } from 'react';
 import ErrorBoundary from "../../errorBoundary"
 import "./styles.scss"
-import Loader from "../../components/loader"
 import {
     Contact,
     FAQ,
@@ -19,7 +18,7 @@ const Home = () => {
 
     return (
         <>
-            <Suspense fallback={() => <Loader/>}>
+            <Suspense fallback={() => {}}>
                 <ErrorBoundary>
                     <Header/>
                     <Intro/>
