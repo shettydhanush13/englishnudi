@@ -41,7 +41,7 @@ const Levels = () => {
     return (
         <LayoutWrapper>
             <LayoutTitle title='Levels'/>
-            <div className='levelCardsWrappers'>
+            <div className='levelCardsWrapper'>
                 {levelData.map((level) => <LevelCard>
                     <h1>{level.title}</h1>
                     <p>{level.description}</p>

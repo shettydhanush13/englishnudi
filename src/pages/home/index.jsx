@@ -13,6 +13,7 @@ import {
 } from '../../components/layouts';
 
 const Header =  lazy(() => import("../../components/header"))
+const Footer =  lazy(() => import("../../components/layouts/footer"))
 
 const Home = () => {
 
@@ -30,6 +31,7 @@ const Home = () => {
                         <Testimonials/>
                         <FAQ/>
                         <Contact/>
+                        <Footer/>
                     </section>
                 </ErrorBoundary>
             </Suspense>
