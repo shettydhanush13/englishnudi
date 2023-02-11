@@ -40,15 +40,19 @@ const Levels = () => {
     ]
     return (
         <LayoutWrapper>
-            <LayoutTitle title='Levels'/>
-            <div className='levelCardsWrapper'>
-                {levelData.map((level) => <LevelCard>
-                    <h1>{level.title}</h1>
-                    <p>{level.description}</p>
-                    <ul>{level.points.map((point) => <li>{point}</li>)}</ul>
-                    <Button text='Enquire'/>
-                </LevelCard>)}
-            </div>
+            <>
+                <LayoutTitle title='Levels'/>
+                <div className='levelCardsWrapper'>
+                    {levelData.map((level) => <LevelCard key={level.title}>
+                        <>
+                            <h1>{level.title}</h1>
+                            <p>{level.description}</p>
+                            <ul>{level.points.map((point, index) => <li key={`${level.title}-${index}`}>{point}</li>)}</ul>
+                            <Button text='Enquire'/>
+                        </>
+                    </LevelCard>)}
+                </div>
+            </>
         </LayoutWrapper>
     );
 }

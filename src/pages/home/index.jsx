@@ -18,10 +18,9 @@ const Footer =  lazy(() => import("../../components/layouts/footer"))
 const Home = () => {
 
     return (
-        <>
+        <section style={{ width: '100vw', overflow: 'hidden' }}>
             <Suspense fallback={() => {}}>
                 <ErrorBoundary>
-                    <section style={{ width: '100vw', overflow: 'hidden' }}>
                         <Header/>
                         <Intro/>
                         <Why/>
@@ -32,10 +31,9 @@ const Home = () => {
                         <FAQ/>
                         <Contact/>
                         <Footer/>
-                    </section>
                 </ErrorBoundary>
             </Suspense>
-        </>
+        </section>
     );
 }
 

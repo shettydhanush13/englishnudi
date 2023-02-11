@@ -35,19 +35,23 @@ const Why = () => {
     ]
     return (
         <LayoutWrapper>
-            <LayoutTitle title='Why choose us?'/>
-            <section>
-                {whyEnglishNudi.map((why, index) => <SectionContainer imageSide={index%2 === 0 ? 'right' : 'left'}>
-                    <div>
-                        <h3>{why.title}</h3>
-                        <ul>
-                            {why.reasons.map((reason) => <li>{reason}</li>)}
-                        </ul>
-                        <Button text={why.buttonText}/>
-                    </div>
-                    <img src={why.imageUrl} alt="" />
-                </SectionContainer>)}
-            </section>
+            <>
+                <LayoutTitle title='Why choose us?'/>
+                <section>
+                    {whyEnglishNudi.map((why, index) => <SectionContainer key={why.title} imageSide={index%2 === 0 ? 'right' : 'left'}>
+                        <>
+                            <div>
+                                <h3>{why.title}</h3>
+                                <ul>
+                                    {why.reasons.map((reason) => <li level key={`${why.title}-${index}`}>{reason}</li>)}
+                                </ul>
+                                <Button text={why.buttonText}/>
+                            </div>
+                            <img src={why.imageUrl} alt="" />
+                        </>
+                    </SectionContainer>)}
+                </section>
+            </>
         </LayoutWrapper>
     );
 }
