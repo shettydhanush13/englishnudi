@@ -17,7 +17,7 @@ const Why = () => {
         {
             title: 'BECOME CONFIDENT',
             reasons: [
-             'With English for Work, you will develop practical communication skills and gain the confidence to master interactions in the workplace.',
+             'With English Nudi, you will develop practical communication skills and gain the confidence to master interactions in the workplace.',
              'Strengthen your soft skills through effective online interaction. This includes group discussions, role plays, presentations and time management.'
             ],
             buttonText: 'Explore our courses for free',
@@ -26,7 +26,7 @@ const Why = () => {
          {
             title: 'BECOME CONFIDENT',
             reasons: [
-             'With English for Work, you will develop practical communication skills and gain the confidence to master interactions in the workplace.',
+             'With English Nudi, you will develop practical communication skills and gain the confidence to master interactions in the workplace.',
              'Strengthen your soft skills through effective online interaction. This includes group discussions, role plays, presentations and time management.'
             ],
             buttonText: 'Explore our courses for free',

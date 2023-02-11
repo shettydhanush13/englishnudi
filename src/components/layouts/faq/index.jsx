@@ -8,7 +8,7 @@ const FAQ = () => {
         <LayoutWrapper>
             <LayoutTitle title='Need a little more information?'/>
             <section>
-                <h3>What does the English for Work course offer?</h3>
+                <h3>What does the English Nudi course offer?</h3>
                 <p>Each class has a duration of 55 minutes and can be booked by up to 15 students. Our live group classes include a set topic and focus on speaking and listening tasks. You will learn with other students at the same level as you, and you will receive instant feedback on your speaking, grammar and vocabulary. After each class, the teacher will share valuable class materials with you for additional practice.</p>
             </section>
             <section>

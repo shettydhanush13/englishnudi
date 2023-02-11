@@ -1,2 +1,20 @@
-
+ul {
+    --icon-space: 1.3em;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
   
+li {
+    padding-left: var(--icon-space);
+    margin: 10px 0;
+}
+  
+li:before {
+    content: "\f00c"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: calc( var(--icon-space) * -1 );
+    width: var(--icon-space);
+    color: #b25eff;
+}

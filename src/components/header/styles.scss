@@ -1,41 +1,13 @@
 header {
+	position: fixed;
+	z-index: 5;
+	width: 100vw;
 	display: flex;
 	background: #fff;
     color: #23085a;
-    border-bottom-right-radius: 40px;
+    border-radius: 0 0 40px 40px;
     box-shadow: 2px 2px 15px 0 rgba(0, 0, 0, 0.1);
-    display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.header-links {
-	display: flex;
-	padding: 1em 0;
-	a {
-		color: #fff;
-		text-decoration: none;
-		margin: 0 1.5em;
-		font-size: 1em;
-	}
-	button {
-		background-color: transparent;
-		color: #fff;
-		border: none;
-		outline: none;
-		margin: 0 1.5em;
-		font-size: 1em;
-		cursor: pointer;
-	}
-}
-
-@media screen and (max-width: 480px){
-    .header-links {
-		width: 100%;
-		display: flex;
-		justify-content: space-around;
-		a, button {
-			font-size: 0.8em;
-			margin: 0;
-		}
-	}
+	padding: 0 10vw;
 }

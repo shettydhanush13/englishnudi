@@ -1,5 +1,4 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
 import "./styles.scss"
 
 const Header = () => {
@@ -10,11 +9,6 @@ const Header = () => {
             </nav>
         </header>
     );
-}
-
-Header.propTypes = {
-    // page : PropTypes.string,
-    // createListing : PropTypes.func
 }
 
 export default Header;
