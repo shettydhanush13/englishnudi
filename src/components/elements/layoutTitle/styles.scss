@@ -5,5 +5,8 @@
     letter-spacing: 0;
     line-height: 1.25em;
     color: #23085a;
-    margin: 25px 0;
+    margin: 25px 0 0 0;
+    @media (min-width: 767px) {
+        margin: 25px 0
+	}
 }

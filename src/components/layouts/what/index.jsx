@@ -5,7 +5,7 @@ import { LayoutWrapper, LayoutTitle, SectionContainer } from '../../elements';
 const What = () => {
     return (
         <LayoutWrapper>
-            <LayoutTitle title='What you get'/>
+            <LayoutTitle title='What you will get'/>
             <SectionContainer imageSide='right'>
                 <div>
                     <h2>This course includes :</h2>

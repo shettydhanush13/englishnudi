@@ -4,7 +4,7 @@ import { Button } from '../../elements'
 
 const Intro = () => {
     return (
-        <div style={{position: 'relative', height: '100vh'}}>
+        <div className='introWrapper'>
             <section className='intro'>
                 <h3>Learn online with English language experts from around the world to help you succeed in your professional life.</h3>
                 <ul>

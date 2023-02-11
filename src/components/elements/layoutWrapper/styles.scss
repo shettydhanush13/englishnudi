@@ -1,11 +1,17 @@
 .layoutWrapper {
     position: relative;
     margin: 0;
-    padding: 25px 15vw;
+    padding: 0;
+    @media (min-width: 767px) {
+        padding: 25px 15vw;
+	}
 }
 
 .layoutWrapper img {
     width: 100%;
     height: auto;
-    display: block;
+    display: none;
+    @media (min-width: 767px) {
+		display: block;
+	}
 }

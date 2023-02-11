@@ -20,15 +20,17 @@ const Home = () => {
         <>
             <Suspense fallback={() => {}}>
                 <ErrorBoundary>
-                    <Header/>
-                    <Intro/>
-                    <Why/>
-                    <What/>
-                    <Levels/>
-                    <How/>
-                    <Testimonials/>
-                    <FAQ/>
-                    <Contact/>
+                    <section style={{ width: '100vw', overflow: 'hidden' }}>
+                        <Header/>
+                        <Intro/>
+                        <Why/>
+                        <What/>
+                        <Levels/>
+                        <How/>
+                        <Testimonials/>
+                        <FAQ/>
+                        <Contact/>
+                    </section>
                 </ErrorBoundary>
             </Suspense>
         </>

@@ -1,12 +1,22 @@
 .sectionContainer {
-    padding: 10px;
+    padding: 0 5px;
     display: flex;
-    margin-bottom: 10%;
+    margin-bottom: 0;
+    @media (min-width: 767px) {
+        margin-bottom: 10%;
+        padding: 10px;
+	}
 }
 
 .sectionContainer img {
     width: 60%;
     margin: 0;
+    width: 0%;
+    display: none;
+    @media (min-width: 767px) {
+        width: 60%;
+        display: block;
+	}
 }
 
 .sectionContainer div {

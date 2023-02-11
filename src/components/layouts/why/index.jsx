@@ -35,7 +35,7 @@ const Why = () => {
     ]
     return (
         <LayoutWrapper>
-            <LayoutTitle title='Why choose English Nudi'/>
+            <LayoutTitle title='Why choose us?'/>
             <section>
                 {whyEnglishNudi.map((why, index) => <SectionContainer imageSide={index%2 === 0 ? 'right' : 'left'}>
                     <div>
