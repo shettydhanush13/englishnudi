@@ -6,15 +6,16 @@ const What = () => {
     return (
         <LayoutWrapper>
             <>
-                <LayoutTitle title='What you will get'/>
+                <LayoutTitle title='Benefits at English Nudi'/>
                 <SectionContainer imageSide='right'>
                     <>
                         <div>
-                            <h2>This course includes :</h2>
+                            {/* <h2>Benefits at English Nudi :</h2> */}
                             <ul>
-                                <li>a wide range of online exercises to practise your English skills</li>
-                                <li>55 minutes live online group classes – attend 1 per week at a timing of your choice</li>
-                                <li>Live25 teacher-led grammar and pronunciation webinars – attend 4 per calendar month</li>
+                                <li>Updated content, revised at periodic intervals</li>
+                                <li>Skilled and Certified trainers available round the clock</li>
+                                <li>Interactive sessions to teach grammar concepts with tips</li>
+                                <li>Career enrichment programme to enrich learners soft skills</li>
                             </ul>
                         </div>
                         <img src="https://englishonline.britishcouncil.org/wp-content/uploads/2022/06/EOL-skills_1360-×-850-px-3.jpg" alt="" />

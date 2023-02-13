@@ -6,12 +6,12 @@ const Intro = () => {
     return (
         <div className='introWrapper'>
             <section className='intro'>
-                <h3>Learn online with English language experts from around the world to help you succeed in your professional life.</h3>
+                <h3>9/10 learners succeed in their career After effective course completion at English Nudi. Become a part of Karnataka’s most popular WhatsApp based online training company.</h3>
                 <ul>
-                    <li>Monthly payment</li>
-                    <li>Available 24/7</li>
-                    <li>Live online lessons</li>
-                    <li>Premium exercises online</li>
+                    <li>24/7 Trainer Assistance</li>
+                    <li>One-to-One Personal Trainer Assistance </li>
+                    <li>6 Months Course + 2 Months Validity</li>
+                    <li>Lifetime Personal Trainer Assistance </li>
                 </ul>
                 <br />
                 <Button text='20% Discount'/>

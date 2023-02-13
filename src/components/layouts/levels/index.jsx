@@ -6,34 +6,39 @@ const Levels = () => {
     const levelData = [
         {
             title: 'BASIC',
-            description: 'Best choice if you have limited time and want to become more confident in using English at your level',
+            description: '',
             points: [
-                '6 live classes',
-                '12 teacher-led webinars (Live25)',
-                'premium online exercises',
-                '3 months'
+                'Mentor-led live online classes',
+                'Activities to boost your learning',
+                'Monitoring learners progress on a regular basis',
+                'Live sessions to enhance soft skills',
+                'Premium access to the art of email writing. '
             ],
             buttonText: 'Enquire'
         },
         {
             title: 'INTERMEDIATE',
-            description: 'Best choice if you have limited time and want to become more confident in using English at your level',
+            description: '',
             points: [
-                '6 live classes',
-                '12 teacher-led webinars (Live25)',
-                'premium online exercises',
-                '3 months'
+                'Mentor-led live online classes',
+                'Activities to boost your learning',
+                'Monitoring learners progress on a regular basis',
+                'Premium access to the art of email writing',
+                'Premium access to the art of cracking an Interview.'
             ],
             buttonText: 'Enquire'
         },
         {
             title: 'EXPERT',
-            description: 'Best choice if you have limited time and want to become more confident in using English at your level',
+            description: '',
             points: [
-                '6 live classes',
-                '12 teacher-led webinars (Live25)',
-                'premium online exercises',
-                '3 months'
+                'Mentor-led live online classes',
+                'Activities to boost your learning',
+                'Monitoring learners progress on a regular basis',
+                'Premium access to the art of email writing',
+                'Premium access to the art of cracking an Interview.',
+                'Job referral programme.',
+                'Freelance opportunities.'
             ],
             buttonText: 'Enquire'
         }
@@ -41,7 +46,8 @@ const Levels = () => {
     return (
         <LayoutWrapper>
             <>
-                <LayoutTitle title='Levels'/>
+                <LayoutTitle title='English Nudi Level Classes'/>
+                {/* <h5>Based on performance at level test, the best suitable level will be allotted to learners.</h5> */}
                 <div className='levelCardsWrapper'>
                     {levelData.map((level) => <LevelCard key={level.title}>
                         <>
