@@ -12,7 +12,7 @@ const Levels = () => {
                     {levelData.map((level) => <LevelCard key={level.title}>
                         <>
                             <h1>{level.title}</h1>
-                            <p>{level.description}</p>
+                            {level?.description !== "" && <p>{level.description}</p>}
                             <ul>{level.points.map((point, index) => <li key={`${level.title}-${index}`}>{point}</li>)}</ul>
                             <Button text='Enquire'/>
                         </>
