@@ -12,7 +12,7 @@ const Levels = () => {
                 'Activities to boost your learning',
                 'Monitoring learners progress on a regular basis',
                 'Live sessions to enhance soft skills',
-                'Premium access to the art of email writing. '
+                'Premium access to the art of email writing.'
             ],
             buttonText: 'Enquire'
         },
@@ -23,7 +23,8 @@ const Levels = () => {
                 'Mentor-led live online classes',
                 'Activities to boost your learning',
                 'Monitoring learners progress on a regular basis',
-                'Premium access to the art of email writing',
+                'Live sessions to enhance soft skills',
+                'Premium access to the art of email writing.',
                 'Premium access to the art of cracking an Interview.'
             ],
             buttonText: 'Enquire'
