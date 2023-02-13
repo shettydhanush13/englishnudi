@@ -12,7 +12,11 @@
     opacity: 1;
     transition-delay: .1s;
     @media (min-width: 767px) {
-		background-image: url('https://englishonline.britishcouncil.org/wp-content/uploads/2022/02/Untitled-design-5.jpg');
+        background-color: #fff;
+        background-image: linear-gradient(
+          to left, transparent, #fff
+        ), url("https://images.pexels.com/photos/8518877/pexels-photo-8518877.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+        background-repeat: no-repeat;
 	}
 }
 
