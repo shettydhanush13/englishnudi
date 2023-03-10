@@ -1,0 +1,29 @@
+[
+    {
+        "title": "Real-time interactive sessions",
+        "points": [
+            "English Nudi offers live classes with experienced teachers who are native English speakers.",
+            "These classes are designed to help you improve your spoken English skills through interactive sessions where you can practice your speaking and listening skills with your trainer in real-time."
+        ],
+        "buttonText": "Explore our platform for free",
+        "imageUrl": "https://images.unsplash.com/photo-1616587226157-48e49175ee20?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80"
+    },
+    {
+        "title": "Brainstorming Competitions",
+        "points": [
+            "Their dedicated team provides a space for you to engage in discussions on a variety of topics.",
+            "These discussions are designed to help you practice speaking fluently and confidently while also learning new vocabulary and expressions."
+        ],
+        "buttonText": "Explore our platform for free",
+        "imageUrl": "https://images.unsplash.com/photo-1533750088811-7a8b16218df7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80"
+    },
+    {
+        "title": "Team-building Activities",
+        "points": [
+            "Our comprehensive course offers a variety of role-play activities that simulate common situations that you may encounter in your personal or professional life, such as job interviews, presentations, and social interactions.",
+            "These activities are designed to help you develop your communication skills and to build your confidence when speaking in English."
+        ],
+        "buttonText": "Explore our platform for free",
+        "imageUrl": "https://images.unsplash.com/photo-1551911729-aeb5b569c307?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2369&q=80"
+    }
+]

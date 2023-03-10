@@ -1,40 +1,9 @@
 import React from 'react';
 import "./styles.scss"
 import { Button, LayoutWrapper, LayoutTitle, SectionContainer } from '../../elements'
+import howToLearnData from '../../../assets/content/english/how.json';
 
 const How = () => {
-    const howToLearnData = [
-        {
-            title: 'Live online classes',
-            points: [
-                'Choose your class time and learn online with British Council expert teachers.',
-                'Practice speaking with role plays to gain confidence and fluency.',
-                'Take part in discussions and group work.'
-            ],
-            buttonText: 'Explore our platform for free',
-            imageUrl: 'https://englishonline.britishcouncil.org/wp-content/uploads/2022/01/myenglish-life-learn-1.png'
-        },
-        {
-            title: 'Live25 teacher-led webinars',
-            points: [
-                'Choose your class time and learn online with British Council expert teachers.',
-                'Practice speaking with role plays to gain confidence and fluency.',
-                'Take part in discussions and group work.'
-            ],
-            buttonText: 'Explore our platform for free',
-            imageUrl: 'https://englishonline.britishcouncil.org/wp-content/uploads/2022/01/myenglish-life-learn-1.png'
-        },
-        {
-            title: 'Guided online exercises',
-            points: [
-                'Choose your class time and learn online with British Council expert teachers.',
-                'Practice speaking with role plays to gain confidence and fluency.',
-                'Take part in discussions and group work.'
-            ],
-            buttonText: 'Explore our platform for free',
-            imageUrl: 'https://englishonline.britishcouncil.org/wp-content/uploads/2022/01/myenglish-life-learn-1.png'
-        }
-    ]
     return (
         <LayoutWrapper>
             <>
