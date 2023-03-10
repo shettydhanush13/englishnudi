@@ -6,6 +6,7 @@ import Levels from './levels';
 import Testimonials from './testimonial';
 import What from './what';
 import Why from './why';
+import Who from './who'
 
 export {
     Contact,
@@ -15,5 +16,6 @@ export {
     Levels,
     Testimonials,
     What,
-    Why
+    Why,
+    Who
 }

@@ -9,6 +9,10 @@ li {
     padding-left: var(--icon-space);
     margin: 10px 0;
 }
+
+p {
+    white-space: pre-line;
+}
   
 li:before {
     content: "\f00c"; /* FontAwesome Unicode */

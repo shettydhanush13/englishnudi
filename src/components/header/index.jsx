@@ -1,11 +1,12 @@
 import React from 'react';
 import "./styles.scss"
+import logo from '../../assets/images/logo-primary.jpeg';
 
 const Header = () => {
     return (
         <header>
             <nav className='header-links'>
-                <h1>English Nudi</h1>
+                <img src={logo} alt="" />
             </nav>
         </header>
     );

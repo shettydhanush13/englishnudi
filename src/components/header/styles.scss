@@ -10,6 +10,9 @@ header {
     justify-content: space-between;
     align-items: center;
 	padding: 0 10vw;
+	img {
+		height: 80px;
+	}
 	@media (max-width: 767px) {
 		text-align: center;
 	}

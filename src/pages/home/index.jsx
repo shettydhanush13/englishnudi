@@ -9,7 +9,8 @@ import {
     Levels,
     Testimonials,
     What,
-    Why
+    Why,
+    Who
 } from '../../components/layouts';
 
 const Header =  lazy(() => import("../../components/header"))
@@ -27,6 +28,7 @@ const Home = () => {
                         <What/>
                         <Levels/>
                         <How/>
+                        <Who/>
                         <Testimonials/>
                         <FAQ/>
                         <Contact/>
